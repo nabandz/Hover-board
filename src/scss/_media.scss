@@ -1,10 +1,27 @@
-@media (max-width: 1400px) {
-}
 @media (max-width: 1200px) {
+  .hover-board {
+    &__title {
+      font-size: 55px;
+    }
+  }
 }
 @media (max-width: 992px) {
-}
-@media (max-width: 768px) {
+  .hover-board {
+    padding-top: 75px;
+    &__wrapper {
+      margin-top: 25px;
+    }
+  }
 }
 @media (max-width: 576px) {
+  .hover-board {
+    padding-top: 35px;
+    &__title {
+      font-size: 35px;
+    }
+    &__item {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }
